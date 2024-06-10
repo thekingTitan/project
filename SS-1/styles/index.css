@@ -3,7 +3,7 @@ h1{
     font-weight: bold;
     text-align: center;
     position: relative;
-    bottom: 9px;
+    bottom: 168px;
     font-size: 35px;
     
 }
@@ -46,18 +46,16 @@ header  img {
     width: 150px;
     height: auto;
     margin-right: 20px;
-    position: absolute;
-    bottom: 427px;
-
-
+    position: relative;
+    bottom: 250px;
 }
-  
+
 
 nav {
-    position:absolute;
-    bottom:450px ;
-    right:10px;
-}
+    position: absolute;
+    bottom: 75%; /* instead of fixed pixels, use a relative unit */
+    right: 10px;
+    }
 footer{
     position:relative;
     top: 100px;
