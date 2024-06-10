@@ -4,7 +4,7 @@ h1{
     text-align: center;
     position: relative;
     bottom: 170px;
-    font-size: 35px;
+    font-size: 170%;
 }
 header img {
     display: flex;
@@ -65,7 +65,7 @@ p{
     display: block;
     margin-right: 3cm;
     position: relative;
-    top: 8px;
+    top: 8%;
 }
 .first ol{
     position: relative;

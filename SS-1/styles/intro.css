@@ -3,8 +3,8 @@ h1{
     font-weight: bold;
     text-align: center;
     position: relative;
-    bottom: 1px;
-    font-size: 35px;
+    bottom: 149px;
+    font-size: 170%;
 }
 
 p {
@@ -13,7 +13,7 @@ p {
     margin: 0 auto; /* instead of fixed margins, use auto to center */
     max-width: 80%; /* set a maximum width to ensure responsiveness */
     position: relative;
-    top: 100px; /* instead of fixed pixels, use a relative unit */
+    top: 10%; /* instead of fixed pixels, use a relative unit */
     }
     
     
@@ -52,10 +52,9 @@ header  img {
     width: 150px;
     height: auto;
     margin-right: 20px;
-    position: absolute;
-    bottom: 427px;
+    position: relative;
+    bottom: 250px;
 }
-
 nav {
     position: absolute;
     bottom: 75%; /* instead of fixed pixels, use a relative unit */
