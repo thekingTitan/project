@@ -2,16 +2,22 @@ h1{
     font-family:'Open sans',sans-serif;
     font-weight: bold;
     text-align: center;
+    position: relative;
+    bottom: 1px;
+    font-size: 35px;
 }
 
-p{
+p {
     text-align: center;
     display: block;
-    margin-left: 3cm;
-    margin-right: 3cm;
+    margin: 0 auto; /* instead of fixed margins, use auto to center */
+    max-width: 80%; /* set a maximum width to ensure responsiveness */
     position: relative;
-    top: 110px;
-}
+    top: 100px; /* instead of fixed pixels, use a relative unit */
+    }
+    
+    
+
 body{
     background-color: #FAEAD6;
     
