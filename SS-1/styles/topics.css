@@ -76,7 +76,16 @@ ol{
     top: 10px;
 }
 
+footer {
+    position: absolute;
+    top: 100%; /* instead of fixed pixels, use a relative unit */
+    right: 10px;
+    }
 
+.fundamental p{  /*this is specifically for the fundametal html file*/
+    position: relative;
+    bottom:15px;
+}
 
     
   
