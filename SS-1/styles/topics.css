@@ -85,6 +85,7 @@ footer {
 .fundamental p{  /*this is specifically for the fundametal html file*/
     position: relative;
     bottom:15px;
+    left: 16%;
 }
 
     
