@@ -19,13 +19,21 @@ header  img {
     bottom: 250px;
 }
 
-div img{
+.background img{
     width: 100%;
     height: 200px;;
     margin-right: 20px;
     opacity: 0.2;
     position: relative;
-    top: 150px;
+    top: 140px;
+}
+.background_1 img{
+    width: 100%;
+    height: 200px;;
+    margin-right: 20px;
+    opacity: 0.2;
+    position: relative;
+    top: 129px;
 }
 
 body{
@@ -95,9 +103,49 @@ footer {
     padding: 1px;
    
 }
+.marked_1{
+    border: 1px solid rgb(20, 20, 19);
+    background-color: rgb(141, 141, 155);
+    display: inline-block;
+    padding: 10px;
+   
+}
 
 h4{
     font-size: 70%;
 }
+
+.facts{
+    font-family: cursive;
+    display: inline-block;
+    font-size: 60%;
+    padding-right: 30px;
+}
+.facts h3{
+    font-size: 170%;
+    color: rgb(78, 98, 227);
     
-  
+}
+
+.fig img{
+    width:20%;
+    display: grid;
+    grid-template-columns:repeat(4, 1fr) ;
+    grid-gap:10px
+    
+}
+
+.fig {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px;
+}
+
+figcaption{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px;
+}
+
+
+
