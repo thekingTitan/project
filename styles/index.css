@@ -1,63 +1,52 @@
-body{
+body {
     background-color: hsl(34, 78%, 91%);
-    position: relative
-    
-}
-/*img {
-    width: 500px;
-    height: auto;
-    /*margin-right: 200px;*/
-    /*margin-left: 300px;*/
-    
-    
-    /*margin-left: 28%;
-}*/
-
-
-  body {
     max-width: 100vw; /* or a specific width like 1200px */
     overflow-x: hidden; /* hide horizontal scrollbar */
     overflow-y: hidden;
+    margin: 0; /* Reset margin */
+    padding: 0; /* Reset padding */
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Center content horizontally */
+    justify-content: center; /* Center content vertically */
+    height: 100vh; /* Full viewport height */
+}
+
+header {
+    width: 100%;
+    max-width: 1200px; /* Optional: limit content width */
+    text-align: center; /* Center text content */
+}
+main {
+    width: 100%;
+    max-width: 1200px; /* Optional: limit content width */
+    text-align: right; /* Center text content */
+}
+footer {
+    width: 100%;
+    max-width: 1200px; /* Optional: limit content width */
+    text-align: left; /* Center text content */
 }
 
 img {
-    width: 500%;
-    max-width: 500px; /* maximum width of the image */
+    width: 100%;
+    max-width: 500px; /* Maximum width of the image */
     height: auto;
-    margin-left: auto;
-    margin-right: auto;
-    display: block; /* center the image */
+    margin: 20px auto; /* Center image with margin */
+    display: block; /* Center the image */
 }
 
-/* Media query for larger screens */
-@media (min-width: 600px) {
-    img {
-        margin-left: 28%;
-    }
-}
-
-nav a {
-    font-size: 10px; /* Set the desired font size */
-    text-decoration: none; /* Optional: remove underline from links */
-    color: inherit; /* Optional: inherit the color from the parent */
+nav a, footer a {
+    font-size: 16px; /* Set the desired font size */
+    text-decoration: none; /* Remove underline from links */
+    color: inherit; /* Inherit color from the parent */
+    display: inline-block;
+    margin: 10px 0; /* Margin for spacing */
 }
 
 /* Media query for larger screens (optional) */
 @media (min-width: 600px) {
-    nav a {
+    nav a, footer a {
         font-size: 18px; /* Adjust font size for larger screens if needed */
     }
 }
-footer a {
-    font-size: 10px; /* Set the desired font size */
-    text-decoration: none; /* Optional: remove underline from links */
-    color: inherit; /* Optional: inherit the color from the parent */
-}
-
-/* Media query for larger screens (optional) */
-@media (min-width: 600px) {
-    nav a {
-        font-size: 18px; /* Adjust font size for larger screens if needed */
-    }
-}
-
