@@ -10,6 +10,7 @@ body {
     align-items: center; /* Center content horizontally */
     justify-content: center; /* Center content vertically */
     height: 100vh; /* Full viewport height */
+    min-height: 100vh;
 }
 
 header {
