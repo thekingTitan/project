@@ -35,3 +35,29 @@ img {
         margin-left: 28%;
     }
 }
+
+nav a {
+    font-size: 10px; /* Set the desired font size */
+    text-decoration: none; /* Optional: remove underline from links */
+    color: inherit; /* Optional: inherit the color from the parent */
+}
+
+/* Media query for larger screens (optional) */
+@media (min-width: 600px) {
+    nav a {
+        font-size: 18px; /* Adjust font size for larger screens if needed */
+    }
+}
+footer a {
+    font-size: 10px; /* Set the desired font size */
+    text-decoration: none; /* Optional: remove underline from links */
+    color: inherit; /* Optional: inherit the color from the parent */
+}
+
+/* Media query for larger screens (optional) */
+@media (min-width: 600px) {
+    nav a {
+        font-size: 18px; /* Adjust font size for larger screens if needed */
+    }
+}
+
