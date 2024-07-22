@@ -21,12 +21,15 @@ header {
 main {
     width: 100%;
     max-width: 1200px; /* Optional: limit content width */
-    text-align: right; /* Center text content */
+    text-align: center; /* Center text content */
 }
 footer {
     width: 100%;
-    max-width: 1200px; /* Optional: limit content width */
-    text-align: left; /* Center text content */
+    /*max-width: 1200px; /* Optional: limit content width */
+    text-align: center; /* Center text content */
+    
+    
+    
 }
 
 img {
@@ -43,6 +46,7 @@ nav a, footer a {
     color: inherit; /* Inherit color from the parent */
     display: inline-block;
     margin: 10px 0; /* Margin for spacing */
+    
 }
 
 /* Media query for larger screens (optional) */
@@ -50,4 +54,105 @@ nav a, footer a {
     nav a, footer a {
         font-size: 18px; /* Adjust font size for larger screens if needed */
     }
+}
+
+.pen{
+    position: relative;
+    top: 200px;
+    margin-right: 200px;
+    font-size: 200%;
+}
+.pen_1{
+    position: relative;
+    top: 1000px;
+    margin-left:300;
+    font-size: ;
+}
+.pen_2{
+    position: relative;
+    top:4000 ;
+}
+.pen_3{
+    position: relative;
+    top: 4000px;
+    margin-left:px;
+    font-size: ;
+}
+.pen_4{
+        position: relative;
+        top: 3000px;
+        margin-left:px;
+        font-size: ;
+}
+.pen_5{
+    position: relative;
+    top: 2000px;
+    margin-left:px;
+    font-size: ;
+}
+.pen_6{
+    position: relative;
+    top: 7000px;
+    margin-left:px;
+    font-size: ;
+}
+.pen_7{
+    position: relative;
+    top:6000px;
+    margin-left:px;
+    font-size: ;
+}
+.pen_8{
+    position: relative;
+    top: 4900px;
+    margin-left:px;
+    font-size: ;
+}
+.pen_9{
+    position: relative;
+    top: 4900px;
+    margin-left:px;
+    font-size: ;
+}
+.pen_10{
+    position: relative;
+    top: 4900px;
+    margin-left:px;
+    font-size: ;
+}
+.pen_11{
+    position: relative;
+    top: 4900px;
+    margin-left:px;
+    font-size: ;
+}
+.pen_12{
+    position: relative;
+    top: 4900px;
+    margin-left:px;
+    font-size: ;
+}
+.pen_13{
+    position: relative;
+    top: 4900px;
+    margin-left:px;
+    font-size: ;
+}
+.pen_14{
+    position: relative;
+    top: 4900px;
+    margin-left:px;
+    font-size: ;
+}
+.pen_15{
+    position: relative;
+    top: 1000px;
+    margin-left:px;
+    font-size: ;
+}
+.pen_16{
+    position: relative;
+    top: 7000px;
+    margin-left:px;
+    font-size: ;
 }
